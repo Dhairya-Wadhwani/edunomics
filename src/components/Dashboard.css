@@ -1,0 +1,58 @@
+.header{
+    width:100%;
+    height:50px;
+    background-color:white;
+    position: relative;
+    text-align: center;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 50px;
+  }
+.myaccount{
+    border-radius:50px;
+    position: absolute;
+    right:50px;
+    height:40px;
+    width:100px;
+    top:8px;
+    color:black;
+}
+
+.maincontainer{
+    
+    display:grid;
+    
+}
+.drawercontainer{
+    /* width:200px; */
+    height:1100px;
+    background-color: grey; 
+    grid-column: 1;
+  grid-row: 1 / span 2;
+    
+    
+}
+.dynamiccontainer{
+     background-color:#20B2AA;
+  
+    height:550px; 
+    grid-column: 2 / span 6;
+    grid-row: 1;
+    
+}
+.staticcontainer{
+    background-color:white;
+    /* width:80%; */
+    height:550px;
+    grid-column: 2 / span 6;
+    grid-row: 2;
+    
+}
